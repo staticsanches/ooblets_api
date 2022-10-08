@@ -1,0 +1,12 @@
+id: muz_flour
+
+name:
+  default: Muz Flour
+
+description:
+  default: It's powdery.
+
+type: ingredient
+
+recipe:
+  muz: 1

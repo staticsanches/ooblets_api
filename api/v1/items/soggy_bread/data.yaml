@@ -1,0 +1,13 @@
+id: soggy_bread
+
+name:
+  default: Soggy Bread
+
+description:
+  default: A delectably bland and moist treat.
+
+type: cooked_food
+
+recipe:
+  bread_sammy: 1
+  rainplop: 1

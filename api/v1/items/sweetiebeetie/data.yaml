@@ -1,0 +1,12 @@
+id: sweetiebeetie
+
+name:
+  default: Sweetiebeetie
+
+description:
+  default: >-
+    A sweet root vegetable, which can be used to create Froobtose. Contains 10 energy.
+
+type: raw_crop
+
+location: badgetown

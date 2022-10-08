@@ -1,0 +1,11 @@
+{
+    "id": "mamoonia",
+    "name": {
+        "default": "Mamoonia"
+    },
+    "description": {
+        "default": "Mamoonia is a small desert region, and the first one besides Badgetown the player will visit. Sprockuts and Balmyblooms can be found here."
+    },
+    "ooblets": [],
+    "crops": []
+}
