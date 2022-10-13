@@ -1,12 +1,12 @@
 {
     "id": "bread_sammy",
+    "type": "cooked_food",
     "name": {
         "default": "Bread Sammy"
     },
     "description": {
         "default": "A slice of bread between two slices of bread."
     },
-    "type": "cooked_food",
     "recipe": {
         "froobtose": 1,
         "muz_flour": 3

@@ -1,12 +1,12 @@
 id: soggy_bread
 
+type: cooked_food
+
 name:
   default: Soggy Bread
 
 description:
   default: A delectably bland and moist treat.
-
-type: cooked_food
 
 recipe:
   bread_sammy: 1

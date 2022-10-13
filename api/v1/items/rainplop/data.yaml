@@ -1,5 +1,7 @@
 id: rainplop
 
+type: forageable
+
 name:
   default: Rainplop
 
@@ -7,7 +9,5 @@ description:
   default: >-
     A valuable liquidy resource which sometimes appears on rainy days.
     You can make sprinklers out of this!
-
-type: forageable
 
 location: badgetown

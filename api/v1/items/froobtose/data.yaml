@@ -1,12 +1,12 @@
 id: froobtose
 
+type: ingredient
+
 name:
   default: Froobtose
 
 description:
   default: Adds sweetness to recipes.
-
-type: ingredient
 
 recipe:
   sweetiebeetie: 1
