@@ -11,3 +11,8 @@ location: badgetown
 
 items:
   soggy_bread: 2
+
+signatureMoves:
+  drizzle_drop: 1
+  bibbin_bop: 3
+  flora_flip: 6

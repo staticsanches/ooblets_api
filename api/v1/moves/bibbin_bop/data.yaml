@@ -1,0 +1,10 @@
+id: bibbin_bop
+
+name:
+  default: Bibbin Bop
+
+description:
+  default: >-
+    Complete a growth cycle on a random farm crop
+
+cost: 4
