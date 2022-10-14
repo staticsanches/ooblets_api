@@ -6,5 +6,8 @@
     "quote": {
         "default": "A Badgetown-native ooblet partial to rainy days."
     },
-    "location": "badgetown"
+    "location": "badgetown",
+    "items": {
+        "soggy_bread": 2
+    }
 }

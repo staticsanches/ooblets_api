@@ -8,3 +8,6 @@ quote:
     A Badgetown-native ooblet partial to rainy days.
 
 location: badgetown
+
+items:
+  soggy_bread: 2
