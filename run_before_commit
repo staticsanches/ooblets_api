@@ -1,0 +1,4 @@
+#! /bin/bash
+
+./generate_api_json_files;
+./validate_api_files;
