@@ -1,0 +1,10 @@
+{
+    "id": "hokeyokay",
+    "name": {
+        "default": "Hokeyokay"
+    },
+    "description": {
+        "default": "Lose 10 points, gain 3 beats"
+    },
+    "cost": 0
+}

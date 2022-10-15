@@ -1,0 +1,12 @@
+id: buttonboy
+
+type: forageable
+
+name:
+  default: Buttonboy
+
+description:
+  default: >-
+    A squat lil fungus used in recipes or eaten for a quick snack.
+
+location: badgetown

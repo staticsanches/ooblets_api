@@ -1,0 +1,10 @@
+{
+    "id": "extra_mild_salsa",
+    "name": {
+        "default": "Extra Mild Salsa"
+    },
+    "description": {
+        "default": "Lose 6 points, stun a random opponent for 3 turns"
+    },
+    "cost": 2
+}

@@ -1,0 +1,18 @@
+id: hermble
+
+name:
+  default: Hermble
+
+quote:
+  default: >-
+    Hermbles try really hard.
+
+location: momoonia
+
+items:
+  buttonboy: 3
+
+signatureMoves:
+  saturday_gigue: 1
+  extra_mild_salsa: 3
+  hokeyokay: 6

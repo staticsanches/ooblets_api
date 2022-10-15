@@ -1,0 +1,10 @@
+id: saturday_gigue
+
+name:
+  default: Saturday Gigue
+
+description:
+  default: >-
+    Lose 4 points, draw a new move
+
+cost: 1
