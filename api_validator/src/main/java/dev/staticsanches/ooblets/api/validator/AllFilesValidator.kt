@@ -2,7 +2,7 @@ package dev.staticsanches.ooblets.api.validator
 
 import kotlin.io.path.nameWithoutExtension
 
-object DirectoryWithAllFilesValidator {
+object AllFilesValidator {
 
     fun validate(directory: ApiPath) {
         val files = directory.children

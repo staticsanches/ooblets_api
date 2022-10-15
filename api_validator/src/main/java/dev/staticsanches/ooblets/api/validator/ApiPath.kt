@@ -50,15 +50,13 @@ class ApiPath private constructor(val parent: ApiPath?, val path: Path) {
 
     companion object {
 
-        val root: ApiPath
-            get() {
-                val path = if (Paths.get("").absolute().name == "api_validator") {
-                    Paths.get("..").resolve("api")
-                } else {
-                    Paths.get("api")
-                }
-                return ApiPath(null, path.absolute())["v1"]
-            }
+        val root = ApiPath(
+            null, if (Paths.get("").absolute().name == "api_validator") {
+                Paths.get("..").resolve("api")
+            } else {
+                Paths.get("api")
+            }.absolute()
+        )["v1"]
 
     }
 
