@@ -1,4 +1,5 @@
 #! /bin/bash
 
 ./generate_api_json_files;
+find . -name ".DS_Store" -delete
 ./validate_api_files;
