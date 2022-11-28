@@ -9,5 +9,7 @@ description:
   default: A delectably bland and moist treat.
 
 recipe:
-  bread_sammy: 1
-  rainplop: 1
+  - item: bread_sammy
+    quantity: 1
+  - item: rainplop
+    quantity: 1

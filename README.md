@@ -1,4 +1,4 @@
-An **UNOFFICIAL** [Ooblets](https://ooblets.com) api.
+An **UNOFFICIAL** [Ooblets](https://ooblets.com) API.
 
 # Attribution
 

@@ -10,9 +10,13 @@ quote:
 location: mamoonia
 
 items:
-  buttonboy: 3
+  - item: buttonboy
+    quantity: 3
 
 signatureMoves:
-  saturday_gigue: 1
-  extra_mild_salsa: 3
-  hokeyokay: 6
+  - move: saturday_gigue
+    level: 1
+  - move: extra_mild_salsa
+    level: 3
+  - move: hokeyokay
+    level: 6

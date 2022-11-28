@@ -9,4 +9,5 @@ description:
   default: It's powdery.
 
 recipe:
-  muz: 1
+  - item: muz
+    quantity: 1

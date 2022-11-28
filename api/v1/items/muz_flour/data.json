@@ -7,7 +7,10 @@
     "description": {
         "default": "It's powdery."
     },
-    "recipe": {
-        "muz": 1
-    }
+    "recipe": [
+        {
+            "item": "muz",
+            "quantity": 1
+        }
+    ]
 }

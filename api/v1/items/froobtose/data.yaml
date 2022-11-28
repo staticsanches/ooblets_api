@@ -9,4 +9,5 @@ description:
   default: Adds sweetness to recipes.
 
 recipe:
-  sweetiebeetie: 1
+  - item: sweetiebeetie
+    quantity: 1

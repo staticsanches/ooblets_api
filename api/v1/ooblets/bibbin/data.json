@@ -7,12 +7,24 @@
         "default": "A Badgetown-native ooblet partial to rainy days."
     },
     "location": "badgetown",
-    "items": {
-        "soggy_bread": 2
-    },
-    "signatureMoves": {
-        "drizzle_drop": 1,
-        "bibbin_bop": 3,
-        "flora_flip": 6
-    }
+    "items": [
+        {
+            "item": "soggy_bread",
+            "quantity": 2
+        }
+    ],
+    "signatureMoves": [
+        {
+            "move": "drizzle_drop",
+            "level": 1
+        },
+        {
+            "move": "bibbin_bop",
+            "level": 3
+        },
+        {
+            "move": "flora_flip",
+            "level": 6
+        }
+    ]
 }

@@ -7,8 +7,14 @@
     "description": {
         "default": "A slice of bread between two slices of bread."
     },
-    "recipe": {
-        "froobtose": 1,
-        "muz_flour": 3
-    }
+    "recipe": [
+        {
+            "item": "froobtose",
+            "quantity": 1
+        },
+        {
+            "item": "muz_flour",
+            "quantity": 3
+        }
+    ]
 }
