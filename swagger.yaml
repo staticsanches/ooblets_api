@@ -3,7 +3,7 @@ openapi: 3.0.3
 info:
   title: Ooblets API
   description: |-
-    An **UNOFFICIAL** Ooblets API.
+    An **UNOFFICIAL** [Ooblets](https://ooblets.com) API.
 
     # Attribution
 
