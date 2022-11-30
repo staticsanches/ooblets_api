@@ -3,6 +3,6 @@
 # Generate the timestamp version file content
 date +%s > api/v1/timestamp_version.yaml
 
-./generate_api_json_files;
+./generate_api_json_files
 find . -name ".DS_Store" -delete
-./validate_api_files;
+./validate_api_files

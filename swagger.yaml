@@ -29,6 +29,7 @@ tags:
   - name: items
   - name: locations
   - name: moves
+  - name: general
 
 paths:
   /ooblets/all.json:
@@ -432,6 +433,37 @@ paths:
               schema:
                 type: string
                 format: binary
+
+  /timestamp_version.json:
+    get:
+      tags:
+        - general
+      summary: Get the Timestamp Version of the API in JSON
+      description: >-
+        Returns the number of seconds since epoch that the last version of
+        the API was modified in JSON format
+      responses:
+        "200":
+          description: Successful operation
+          content:
+            application/json:
+              schema:
+                type: integer
+  /timestamp_version.yaml:
+    get:
+      tags:
+        - general
+      summary: Get the Timestamp Version of the API in YAML
+      description: >-
+        Returns the number of seconds since epoch that the last version of
+        the API was modified in YAML format
+      responses:
+        "200":
+          description: Successful operation
+          content:
+            text/x-yaml:
+              schema:
+                type: integer
 
 components:
   schemas:
