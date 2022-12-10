@@ -4,6 +4,7 @@ import org.jsoup.nodes.Document
 import org.jsoup.nodes.Element
 import java.io.File
 import java.net.URL
+import java.text.Normalizer
 import javax.imageio.ImageIO
 import kotlin.time.ExperimentalTime
 import kotlin.time.measureTime
@@ -115,7 +116,19 @@ private fun extractOobletItemQuantity(document: Document): Int =
 	document.selectFirst("tr th:matches(Item) + td:has(a)")!!.ownText()
 		.removePrefix("x").trim().ifEmpty { "1" }.toInt()
 
-private fun String.toID() = this.trim().lowercase().replace(" ", "_")
+private val unaccentRegex = "\\p{InCombiningDiacriticalMarks}+".toRegex()
+
+private fun CharSequence.unaccent(): String {
+	val temp = Normalizer.normalize(this, Normalizer.Form.NFD)
+	return unaccentRegex.replace(temp, "")
+}
+
+private val alphaNumericRegex = "[^A-Za-z0-9 ]".toRegex()
+
+private fun CharSequence.onlyAlphaNumeric(): String =
+	alphaNumericRegex.replace(this, "")
+
+private fun String.toID() = this.trim().unaccent().onlyAlphaNumeric().lowercase().replace(" ", "_")
 
 private fun extractOobletMove(learningOrder: MoveLearningOrder, document: Document): Move {
 	val level = document.selectFirst(
