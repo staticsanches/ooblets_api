@@ -1,0 +1,10 @@
+id: pantsabear_treble_reel_trousers
+
+name:
+  default: Treble Reel Trousers
+
+description:
+  default: >-
+    Gain 2 points per stunned ooblet on either team
+
+cost: 2

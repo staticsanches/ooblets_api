@@ -1,0 +1,10 @@
+{
+    "id": "quabbo_flip_trip",
+    "name": {
+        "default": "Flip Trip"
+    },
+    "description": {
+        "default": "Convert your team's fluster to points"
+    },
+    "cost": 5
+}

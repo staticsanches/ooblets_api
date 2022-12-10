@@ -1,0 +1,10 @@
+{
+    "id": "chickadingding_slipper_samba",
+    "name": {
+        "default": "Slipper Samba"
+    },
+    "description": {
+        "default": "Opponents lose 6 points"
+    },
+    "cost": 3
+}

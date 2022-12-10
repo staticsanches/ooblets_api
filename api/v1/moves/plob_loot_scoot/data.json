@@ -1,0 +1,10 @@
+{
+    "id": "plob_loot_scoot",
+    "name": {
+        "default": "Loot Scoot"
+    },
+    "description": {
+        "default": "Gain a basic resource (nurnies, planklets, etc.)"
+    },
+    "cost": 2
+}

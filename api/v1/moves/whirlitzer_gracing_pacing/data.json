@@ -1,0 +1,10 @@
+{
+    "id": "whirlitzer_gracing_pacing",
+    "name": {
+        "default": "Gracing Pacing"
+    },
+    "description": {
+        "default": "Get 2 extra beats after 1 turn of warm-up"
+    },
+    "cost": 1
+}

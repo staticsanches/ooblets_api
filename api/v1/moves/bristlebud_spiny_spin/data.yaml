@@ -1,0 +1,10 @@
+id: bristlebud_spiny_spin
+
+name:
+  default: Spiny Spin
+
+description:
+  default: >-
+    Add 2 fluster to opponent team
+
+cost: 2

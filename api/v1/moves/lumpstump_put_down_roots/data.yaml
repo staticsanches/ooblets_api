@@ -1,0 +1,10 @@
+id: lumpstump_put_down_roots
+
+name:
+  default: Put Down Roots
+
+description:
+  default: >-
+    Gain 2 hype after 2 turns of warm-up
+
+cost: 1

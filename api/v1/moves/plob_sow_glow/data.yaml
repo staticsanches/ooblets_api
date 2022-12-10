@@ -1,0 +1,10 @@
+id: plob_sow_glow
+
+name:
+  default: Sow Glow
+
+description:
+  default: >-
+    Gain a better random crop seed
+
+cost: 3

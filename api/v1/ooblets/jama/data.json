@@ -1,0 +1,30 @@
+{
+    "id": "jama",
+    "name": {
+        "default": "Jama"
+    },
+    "quote": {
+        "default": "Jamas are snuggly lil buds always ready for a snow day."
+    },
+    "location": "badgetown",
+    "items": [
+        {
+            "item": "sootheysip",
+            "quantity": 3
+        }
+    ],
+    "signatureMoves": [
+        {
+            "move": "jama_cozy_courante",
+            "level": 1
+        },
+        {
+            "move": "jama_bumpabuff",
+            "level": 3
+        },
+        {
+            "move": "jama_snug_sarabande",
+            "level": 6
+        }
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    "id": "derble",
+    "name": {
+        "default": "Derble"
+    },
+    "quote": {
+        "default": "Derbles are light-footed desert-dwellers who can be found scurrying around Mamoonia."
+    },
+    "location": "mamoonia",
+    "items": [
+        {
+            "item": "fartichoke",
+            "quantity": 3
+        }
+    ],
+    "signatureMoves": [
+        {
+            "move": "derble_quiddany_quickstep",
+            "level": 1
+        },
+        {
+            "move": "derble_jelly_jive",
+            "level": 3
+        },
+        {
+            "move": "derble_bon_bon_bop",
+            "level": 6
+        }
+    ]
+}

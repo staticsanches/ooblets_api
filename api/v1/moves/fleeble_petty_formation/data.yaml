@@ -1,0 +1,10 @@
+id: fleeble_petty_formation
+
+name:
+  default: Petty Formation
+
+description:
+  default: >-
+    Add 1 fluster to opponent team
+
+cost: 2

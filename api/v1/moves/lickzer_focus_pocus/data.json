@@ -1,0 +1,10 @@
+{
+    "id": "lickzer_focus_pocus",
+    "name": {
+        "default": "Focus Pocus"
+    },
+    "description": {
+        "default": "Clear all stuns from your team"
+    },
+    "cost": 1
+}

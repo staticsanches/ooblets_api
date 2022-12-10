@@ -1,0 +1,30 @@
+{
+    "id": "dooziedug",
+    "name": {
+        "default": "Dooziedug"
+    },
+    "quote": {
+        "default": "Dooziedugs are rare ooblets with interesting and somewhat confusing moves."
+    },
+    "location": "ephemeral_ooblet_vacation_spot",
+    "items": [
+        {
+            "item": "pibblepug_pie",
+            "quantity": 3
+        }
+    ],
+    "signatureMoves": [
+        {
+            "move": "dooziedug_pep_pep",
+            "level": 1
+        },
+        {
+            "move": "dooziedug_pop_in",
+            "level": 3
+        },
+        {
+            "move": "dooziedug_rough_landing",
+            "level": 6
+        }
+    ]
+}

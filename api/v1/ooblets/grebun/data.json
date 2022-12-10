@@ -1,0 +1,30 @@
+{
+    "id": "grebun",
+    "name": {
+        "default": "Grebun"
+    },
+    "quote": {
+        "default": "Grebuns are rare ooblets with mediocre moves (sorry, it's true!)"
+    },
+    "location": "ephemeral_ooblet_vacation_spot",
+    "items": [
+        {
+            "item": "zinooka_cake",
+            "quantity": 3
+        }
+    ],
+    "signatureMoves": [
+        {
+            "move": "grebun_waddleswap",
+            "level": 1
+        },
+        {
+            "move": "grebun_next",
+            "level": 3
+        },
+        {
+            "move": "grebun_just_a_taste",
+            "level": 6
+        }
+    ]
+}

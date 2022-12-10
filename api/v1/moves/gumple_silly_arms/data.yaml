@@ -1,0 +1,10 @@
+id: gumple_silly_arms
+
+name:
+  default: Silly Arms!
+
+description:
+  default: >-
+    Give your player character silly arms for the day
+
+cost: 3

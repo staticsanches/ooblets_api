@@ -1,0 +1,10 @@
+{
+    "id": "firmo_soft_shoe_servo",
+    "name": {
+        "default": "Soft Shoe Servo"
+    },
+    "description": {
+        "default": "Lower your move costs by 1 beat this turn"
+    },
+    "cost": 2
+}

@@ -1,0 +1,10 @@
+{
+    "id": "namnam_clawback",
+    "name": {
+        "default": "Clawback"
+    },
+    "description": {
+        "default": "Convert your opponent's fluster to your points"
+    },
+    "cost": 1
+}

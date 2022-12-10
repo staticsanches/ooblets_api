@@ -1,0 +1,10 @@
+id: bittle_capoeira_copy
+
+name:
+  default: Capoeira Copy
+
+description:
+  default: >-
+    Steal a random opponent signature move
+
+cost: 0

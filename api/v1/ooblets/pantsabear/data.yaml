@@ -1,0 +1,22 @@
+id: pantsabear
+
+name:
+  default: Pantsabear
+
+quote:
+  default: >-
+    Pantsabears are their own thing.
+
+location: pantsabear_hill
+
+items:
+  - item: button_soup
+    quantity: 3
+
+signatureMoves:
+  - move: pantsabear_slip_jig_slacks
+    level: 1
+  - move: pantsabear_sean_nos_boop
+    level: 3
+  - move: pantsabear_treble_reel_trousers
+    level: 6

@@ -1,0 +1,10 @@
+{
+    "id": "grebun_waddleswap",
+    "name": {
+        "default": "Waddleswap"
+    },
+    "description": {
+        "default": "Redraw 2 random moves in hand"
+    },
+    "cost": 1
+}

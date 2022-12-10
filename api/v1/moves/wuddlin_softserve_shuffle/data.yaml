@@ -1,0 +1,10 @@
+id: wuddlin_softserve_shuffle
+
+name:
+  default: Softserve Shuffle
+
+description:
+  default: >-
+    Gain 3 points plus an extra 2 hype if it's snowing
+
+cost: 2

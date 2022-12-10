@@ -1,0 +1,10 @@
+id: tamlin_babbify
+
+name:
+  default: Babbify
+
+description:
+  default: >-
+    Make player tiny for the day
+
+cost: 7

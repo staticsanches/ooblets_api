@@ -1,0 +1,10 @@
+id: isopud_hunker_down
+
+name:
+  default: Hunker Down
+
+description:
+  default: >-
+    Get 3 extra beats after 2 turns of warm-up
+
+cost: 1

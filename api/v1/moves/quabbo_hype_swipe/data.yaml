@@ -1,0 +1,10 @@
+id: quabbo_hype_swipe
+
+name:
+  default: Hype Swipe
+
+description:
+  default: >-
+    Steal all opponent team's hype
+
+cost: 5

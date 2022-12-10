@@ -1,0 +1,10 @@
+{
+    "id": "bristlebud_prickle_prance",
+    "name": {
+        "default": "Prickle Prance"
+    },
+    "description": {
+        "default": "Stun target for 2 turns"
+    },
+    "cost": 2
+}

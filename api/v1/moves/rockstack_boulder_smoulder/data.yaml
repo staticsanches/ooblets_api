@@ -1,0 +1,10 @@
+id: rockstack_boulder_smoulder
+
+name:
+  default: Boulder Smoulder
+
+description:
+  default: >-
+    Prevent any ooblets on this team from being stunned this match
+
+cost: 4

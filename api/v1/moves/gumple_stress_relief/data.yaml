@@ -1,0 +1,10 @@
+id: gumple_stress_relief
+
+name:
+  default: Stress Relief
+
+description:
+  default: >-
+    Convert all opponent's fluster to your points
+
+cost: 1

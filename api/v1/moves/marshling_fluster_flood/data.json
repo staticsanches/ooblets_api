@@ -1,0 +1,10 @@
+{
+    "id": "marshling_fluster_flood",
+    "name": {
+        "default": "Fluster Flood"
+    },
+    "description": {
+        "default": "Gain 3 points and add 1 fluster to opponent team"
+    },
+    "cost": 4
+}

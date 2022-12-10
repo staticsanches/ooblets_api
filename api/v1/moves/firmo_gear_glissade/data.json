@@ -1,0 +1,10 @@
+{
+    "id": "firmo_gear_glissade",
+    "name": {
+        "default": "Gear Glissade"
+    },
+    "description": {
+        "default": "Clear all trepidation from your deck"
+    },
+    "cost": 1
+}

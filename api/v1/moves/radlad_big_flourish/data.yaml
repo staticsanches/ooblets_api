@@ -1,0 +1,10 @@
+id: radlad_big_flourish
+
+name:
+  default: Big Flourish
+
+description:
+  default: >-
+    Earn 12 points after 3 turns of warm-up
+
+cost: 3

@@ -1,0 +1,22 @@
+id: petula
+
+name:
+  default: Petula
+
+quote:
+  default: >-
+    A flowering ooblet known for being quite prim. Capable of powerful dances that involve warm ups.
+
+location: badgetown
+
+items:
+  - item: caroot_cake
+    quantity: 1
+
+signatureMoves:
+  - move: petula_blue_sky_this
+    level: 1
+  - move: petula_bike_shred_cred
+    level: 3
+  - move: petula_design_by_committee
+    level: 6

@@ -1,0 +1,22 @@
+id: legsy
+
+name:
+  default: Legsy
+
+quote:
+  default: >-
+    Legsies are a mischievous, semi-aquatic, yet very clearly ambulatory ooblet, native to Port Forward.
+
+location: port_forward
+
+items:
+  - item: candy_salad
+    quantity: 3
+
+signatureMoves:
+  - move: legsy_slick_pick
+    level: 1
+  - move: legsy_fluster_foist
+    level: 3
+  - move: legsy_pike_drop
+    level: 6

@@ -1,0 +1,10 @@
+{
+    "id": "marshling_mire_medley",
+    "name": {
+        "default": "Mire Medley"
+    },
+    "description": {
+        "default": "Opponent gets 2 fewer beats next turn"
+    },
+    "cost": 1
+}

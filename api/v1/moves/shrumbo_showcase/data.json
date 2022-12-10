@@ -1,0 +1,10 @@
+{
+    "id": "shrumbo_showcase",
+    "name": {
+        "default": "Showcase"
+    },
+    "description": {
+        "default": "Earn 8 points"
+    },
+    "cost": 4
+}

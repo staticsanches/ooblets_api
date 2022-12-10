@@ -1,0 +1,22 @@
+id: bristlebud
+
+name:
+  default: Bristlebud
+
+quote:
+  default: >-
+    Despite being marginally prickly, Bristlebuds are clearly very friendly ooblets originating in the arid climate of Mamoonia.
+
+location: mamoonia
+
+items:
+  - item: mamoonia_macaroon
+    quantity: 3
+
+signatureMoves:
+  - move: bristlebud_prickle_prance
+    level: 1
+  - move: bristlebud_spiny_spin
+    level: 3
+  - move: bristlebud_stompulent
+    level: 6

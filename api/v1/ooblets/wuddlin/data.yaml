@@ -1,0 +1,22 @@
+id: wuddlin
+
+name:
+  default: Wuddlin
+
+quote:
+  default: >-
+    A snow-waddling ooblet that is typically only found in colder climes and during snowfalls.
+
+location: badgetown
+
+items:
+  - item: delislush
+    quantity: 3
+
+signatureMoves:
+  - move: wuddlin_freeze_frame
+    level: 1
+  - move: wuddlin_wuddlin_waddle
+    level: 3
+  - move: wuddlin_softserve_shuffle
+    level: 6

@@ -1,0 +1,10 @@
+id: bunglebee_sting_ringer
+
+name:
+  default: Sting Ringer
+
+description:
+  default: >-
+    Make any humanoid opponents' heads swell up
+
+cost: 2

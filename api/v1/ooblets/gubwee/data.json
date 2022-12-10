@@ -1,0 +1,30 @@
+{
+    "id": "gubwee",
+    "name": {
+        "default": "Gubwee"
+    },
+    "quote": {
+        "default": "Gubwees are Port Forward-native ooblets whose facial features have been observed to evolve and devolve at various times."
+    },
+    "location": "port_forward",
+    "items": [
+        {
+            "item": "thimbi_tartare",
+            "quantity": 3
+        }
+    ],
+    "signatureMoves": [
+        {
+            "move": "gubwee_shuffle_shanty",
+            "level": 1
+        },
+        {
+            "move": "gubwee_overbear_snare",
+            "level": 3
+        },
+        {
+            "move": "gubwee_sassy_saute",
+            "level": 6
+        }
+    ]
+}

@@ -1,0 +1,10 @@
+id: clickyclaws_hopping_mad
+
+name:
+  default: Hopping Mad
+
+description:
+  default: >-
+    Steal up to 1 hype
+
+cost: 1

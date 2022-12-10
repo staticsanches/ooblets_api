@@ -1,0 +1,10 @@
+{
+    "id": "jama_snug_sarabande",
+    "name": {
+        "default": "Snug Sarabande"
+    },
+    "description": {
+        "default": "Stun a random opponent for 2 turns"
+    },
+    "cost": 3
+}

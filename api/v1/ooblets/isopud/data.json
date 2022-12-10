@@ -1,0 +1,30 @@
+{
+    "id": "isopud",
+    "name": {
+        "default": "Isopud"
+    },
+    "quote": {
+        "default": "Isopuds have a lethargic appearance, but that's only because they have to expend so much energy on having so many arms. You try staying alert after lugging around 8 arms and two arm-like antennae all day."
+    },
+    "location": "badgetown",
+    "items": [
+        {
+            "item": "beanjuice",
+            "quantity": 3
+        }
+    ],
+    "signatureMoves": [
+        {
+            "move": "isopud_hunker_down",
+            "level": 1
+        },
+        {
+            "move": "isopud_spin_up",
+            "level": 3
+        },
+        {
+            "move": "isopud_repress_duress",
+            "level": 6
+        }
+    ]
+}

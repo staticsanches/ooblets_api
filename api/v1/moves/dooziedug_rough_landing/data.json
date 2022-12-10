@@ -1,0 +1,10 @@
+{
+    "id": "dooziedug_rough_landing",
+    "name": {
+        "default": "Rough Landing"
+    },
+    "description": {
+        "default": "Reset all points to zero"
+    },
+    "cost": 3
+}

@@ -1,0 +1,30 @@
+{
+    "id": "bittle",
+    "name": {
+        "default": "Bittle"
+    },
+    "quote": {
+        "default": "Bittles have an aggressive dance battle style that has led to them being the mascot ooblets of the Peaksnubs club. Wild bittles can only be lured into dances with exclusive Peaksnubs treabies."
+    },
+    "location": "badgetown",
+    "items": [
+        {
+            "item": "peaksnubs_pickle",
+            "quantity": 1
+        }
+    ],
+    "signatureMoves": [
+        {
+            "move": "bittle_pilfer_polka",
+            "level": 1
+        },
+        {
+            "move": "bittle_flout_for_doubt",
+            "level": 3
+        },
+        {
+            "move": "bittle_capoeira_copy",
+            "level": 6
+        }
+    ]
+}

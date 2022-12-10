@@ -1,0 +1,30 @@
+{
+    "id": "quabbo",
+    "name": {
+        "default": "Quabbo"
+    },
+    "quote": {
+        "default": "Quabbos are inquisitive yet unopinionated ooblets native to Port Forward."
+    },
+    "location": "port_forward",
+    "items": [
+        {
+            "item": "a_very_cellulettuce_sammy",
+            "quantity": 3
+        }
+    ],
+    "signatureMoves": [
+        {
+            "move": "quabbo_new_step",
+            "level": 1
+        },
+        {
+            "move": "quabbo_flip_trip",
+            "level": 3
+        },
+        {
+            "move": "quabbo_hype_swipe",
+            "level": 6
+        }
+    ]
+}

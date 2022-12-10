@@ -1,0 +1,30 @@
+{
+    "id": "gopslop",
+    "name": {
+        "default": "Gopslop"
+    },
+    "quote": {
+        "default": "Gopslops are found in mountainous areas like Tippytop, where they toot around."
+    },
+    "location": "tippy_top",
+    "items": [
+        {
+            "item": "droostral",
+            "quantity": 3
+        }
+    ],
+    "signatureMoves": [
+        {
+            "move": "gopslop_mudslide",
+            "level": 1
+        },
+        {
+            "move": "gopslop_muddy_the_waters",
+            "level": 3
+        },
+        {
+            "move": "gopslop_grubby_hands",
+            "level": 6
+        }
+    ]
+}

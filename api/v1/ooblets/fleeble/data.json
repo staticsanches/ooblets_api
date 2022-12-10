@@ -1,0 +1,30 @@
+{
+    "id": "fleeble",
+    "name": {
+        "default": "Fleeble"
+    },
+    "quote": {
+        "default": "A somewhat timid and reserved Ooblet found around Badgetown. Fleebles are distantly related to Shrumbos. Despite appearances to the contrary, they do have arms, they're just quite small."
+    },
+    "location": "badgetown",
+    "items": [
+        {
+            "item": "sporbet",
+            "quantity": 3
+        }
+    ],
+    "signatureMoves": [
+        {
+            "move": "fleeble_petty_formation",
+            "level": 1
+        },
+        {
+            "move": "fleeble_skip_step",
+            "level": 3
+        },
+        {
+            "move": "fleeble_minuscule_medley",
+            "level": 6
+        }
+    ]
+}

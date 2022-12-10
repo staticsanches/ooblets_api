@@ -1,0 +1,10 @@
+id: marshling_swamp_romp
+
+name:
+  default: Swamp Romp
+
+description:
+  default: >-
+    Opponent gets 1 fewer beats each hand for the rest of the match
+
+cost: 3

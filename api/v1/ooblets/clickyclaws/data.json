@@ -1,0 +1,30 @@
+{
+    "id": "clickyclaws",
+    "name": {
+        "default": "Clickyclaws"
+    },
+    "quote": {
+        "default": "A generally belligerent little ooblet native to Badgetown. Clickyclaws are known to congregate in unused structures and may act aggressively to interlopers."
+    },
+    "location": "badgetown",
+    "items": [
+        {
+            "item": "froobtose",
+            "quantity": 2
+        }
+    ],
+    "signatureMoves": [
+        {
+            "move": "clickyclaws_marginal_mamba",
+            "level": 1
+        },
+        {
+            "move": "clickyclaws_hopping_mad",
+            "level": 3
+        },
+        {
+            "move": "clickyclaws_just_a_taste",
+            "level": 6
+        }
+    ]
+}

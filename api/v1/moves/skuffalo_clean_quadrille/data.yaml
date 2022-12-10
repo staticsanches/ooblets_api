@@ -1,0 +1,10 @@
+id: skuffalo_clean_quadrille
+
+name:
+  default: Clean Quadrille
+
+description:
+  default: >-
+    Clear all stun, trepidation, and fluster from your team
+
+cost: 3

@@ -1,0 +1,10 @@
+id: lumpstump_shake_the_tree
+
+name:
+  default: Shake the Tree
+
+description:
+  default: >-
+    Steal 3 points and add 1 fluster to opponent
+
+cost: 3

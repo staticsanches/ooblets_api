@@ -1,0 +1,10 @@
+id: nuppo_grand_adage
+
+name:
+  default: Grand Adage
+
+description:
+  default: >-
+    Stun target for 3 turns
+
+cost: 3

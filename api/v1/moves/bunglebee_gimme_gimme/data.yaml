@@ -1,0 +1,10 @@
+id: bunglebee_gimme_gimme
+
+name:
+  default: Gimme Gimme
+
+description:
+  default: >-
+    Summon a totally random item to your inventory
+
+cost: 3

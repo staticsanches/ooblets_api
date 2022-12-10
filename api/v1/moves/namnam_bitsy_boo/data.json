@@ -1,0 +1,10 @@
+{
+    "id": "namnam_bitsy_boo",
+    "name": {
+        "default": "Bitsy Boo"
+    },
+    "description": {
+        "default": "Give 4 trepidation to both teams"
+    },
+    "cost": 1
+}

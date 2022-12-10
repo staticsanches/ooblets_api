@@ -1,0 +1,30 @@
+{
+    "id": "unnyhunny",
+    "name": {
+        "default": "Unnyhunny"
+    },
+    "quote": {
+        "default": "A diminutive yet multi-layered Ooblet sporting natural rings that resemble headbands. Also little red booties."
+    },
+    "location": "badgetown",
+    "items": [
+        {
+            "item": "quib_tart",
+            "quantity": 1
+        }
+    ],
+    "signatureMoves": [
+        {
+            "move": "unnyhunny_sugar_pan_shuffle",
+            "level": 1
+        },
+        {
+            "move": "unnyhunny_fresh_start",
+            "level": 3
+        },
+        {
+            "move": "unnyhunny_let_loose",
+            "level": 6
+        }
+    ]
+}

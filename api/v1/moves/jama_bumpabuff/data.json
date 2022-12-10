@@ -1,0 +1,10 @@
+{
+    "id": "jama_bumpabuff",
+    "name": {
+        "default": "Bumpabuff"
+    },
+    "description": {
+        "default": "Clear all fluster from both teams"
+    },
+    "cost": 1
+}

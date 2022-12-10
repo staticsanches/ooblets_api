@@ -1,0 +1,10 @@
+id: gullysplot_swap_hop
+
+name:
+  default: Swap Hop
+
+description:
+  default: >-
+    Start next turn with 2 extra beats but 1 less move
+
+cost: 0

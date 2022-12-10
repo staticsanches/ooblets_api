@@ -1,0 +1,10 @@
+id: snurfler_gemjolt
+
+name:
+  default: Gemjolt
+
+description:
+  default: >-
+    20% chance of producing a gember
+
+cost: 1

@@ -1,0 +1,10 @@
+id: gopslop_muddy_the_waters
+
+name:
+  default: Muddy the Waters
+
+description:
+  default: >-
+    Lose 6 points, give opponent 2 fluster
+
+cost: 2

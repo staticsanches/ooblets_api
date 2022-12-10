@@ -1,0 +1,30 @@
+{
+    "id": "fripp",
+    "name": {
+        "default": "Fripp"
+    },
+    "quote": {
+        "default": "Fripps are cheerfully peculiar natives of Mamoonia. It's been said that their top-mounted proboscis changes color in accordance with the proxtumnal oblivox (which only happens every 281,000 years)."
+    },
+    "location": "mamoonia",
+    "items": [
+        {
+            "item": "spressy",
+            "quantity": 3
+        }
+    ],
+    "signatureMoves": [
+        {
+            "move": "fripp_fair_port_de_corps",
+            "level": 1
+        },
+        {
+            "move": "fripp_loaded_lindy",
+            "level": 3
+        },
+        {
+            "move": "fripp_swing_crimson",
+            "level": 6
+        }
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    "id": "gloopy_long_legs",
+    "name": {
+        "default": "Gloopy Long Legs"
+    },
+    "quote": {
+        "default": "Gloopylonglegs are jelly-encased creatures native to Nullwhere. Their long legs make them adept at wading through marshy swamps and herds of marshlings."
+    },
+    "location": "nullwhere",
+    "items": [
+        {
+            "item": "gember",
+            "quantity": 3
+        }
+    ],
+    "signatureMoves": [
+        {
+            "move": "gloopy_long_legs_glomp_tromp",
+            "level": 1
+        },
+        {
+            "move": "gloopy_long_legs_jelly_jazz",
+            "level": 3
+        },
+        {
+            "move": "gloopy_long_legs_marmalade_moat",
+            "level": 6
+        }
+    ]
+}

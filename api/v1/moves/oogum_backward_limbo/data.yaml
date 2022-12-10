@@ -1,0 +1,10 @@
+id: oogum_backward_limbo
+
+name:
+  default: Backward Limbo
+
+description:
+  default: >-
+    Lower all your team's future warm-up times by 1 turn for the match
+
+cost: 3

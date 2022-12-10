@@ -1,0 +1,10 @@
+{
+    "id": "bunglebee_hive_jive",
+    "name": {
+        "default": "Hive Jive"
+    },
+    "description": {
+        "default": "Start each following turn with an extra move"
+    },
+    "cost": 4
+}

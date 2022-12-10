@@ -1,0 +1,10 @@
+id: chickadingding_give_a_dance
+
+name:
+  default: Give A Dance
+
+description:
+  default: >-
+    Gain 2 points every time a move is played this hand
+
+cost: 2

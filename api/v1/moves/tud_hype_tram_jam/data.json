@@ -1,0 +1,10 @@
+{
+    "id": "tud_hype_tram_jam",
+    "name": {
+        "default": "Hype Tram Jam"
+    },
+    "description": {
+        "default": "Gain 3 hype"
+    },
+    "cost": 3
+}

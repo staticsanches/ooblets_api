@@ -1,0 +1,30 @@
+{
+    "id": "spuddle",
+    "name": {
+        "default": "Spuddle"
+    },
+    "quote": {
+        "default": "Spuddles are complex and mysterious ooblets that require a certain level of recklessness to employ in dance battles."
+    },
+    "location": "badgetown",
+    "items": [
+        {
+            "item": "clambrosia",
+            "quantity": 1
+        }
+    ],
+    "signatureMoves": [
+        {
+            "move": "spuddle_risky_shift",
+            "level": 1
+        },
+        {
+            "move": "spuddle_beserka_mazurka",
+            "level": 3
+        },
+        {
+            "move": "spuddle_group_think_slink",
+            "level": 6
+        }
+    ]
+}

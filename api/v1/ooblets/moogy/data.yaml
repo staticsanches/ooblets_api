@@ -1,0 +1,22 @@
+id: moogy
+
+name:
+  default: Moogy
+
+quote:
+  default: >-
+    Moogy is flightless ooblet. Most ooblets are flightless but it just seemed more pertinent to mention in regard to Moogy.
+
+location: badgetown
+
+items:
+  - item: pompadoot_juice
+    quantity: 2
+
+signatureMoves:
+  - move: moogy_flitter_flutter
+    level: 1
+  - move: moogy_grand_pa_dee_do
+    level: 2
+  - move: moogy_inundation_notation
+    level: 3

@@ -1,0 +1,10 @@
+id: moogy_grand_pa_dee_do
+
+name:
+  default: Grand Pa-Dee-Do
+
+description:
+  default: >-
+    Join a teammate's warming-up move to decrease its warm-up time by 2 turns
+
+cost: 3

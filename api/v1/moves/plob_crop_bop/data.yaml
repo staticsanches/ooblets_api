@@ -1,0 +1,10 @@
+id: plob_crop_bop
+
+name:
+  default: Crop Bop
+
+description:
+  default: >-
+    Gain a basic random crop seed
+
+cost: 2

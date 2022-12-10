@@ -1,0 +1,10 @@
+id: nuppo_flummoxtrot
+
+name:
+  default: Flummoxtrot
+
+description:
+  default: >-
+    Earn 5 points and add 1 fluster to opponent team
+
+cost: 3

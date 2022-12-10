@@ -1,0 +1,10 @@
+id: isopud_repress_duress
+
+name:
+  default: Repress Duress
+
+description:
+  default: >-
+    Give all your trepidation cards to your opponent
+
+cost: 2

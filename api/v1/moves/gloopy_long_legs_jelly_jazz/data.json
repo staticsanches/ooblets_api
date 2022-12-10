@@ -1,0 +1,10 @@
+{
+    "id": "gloopy_long_legs_jelly_jazz",
+    "name": {
+        "default": "Jelly Jazz"
+    },
+    "description": {
+        "default": "Clear all fluster from your team"
+    },
+    "cost": 2
+}

@@ -1,0 +1,10 @@
+{
+    "id": "petula_design_by_committee",
+    "name": {
+        "default": "Design By Committee"
+    },
+    "description": {
+        "default": "Add 1 turn of warm-up time to all opponents' warm-up moves for the match"
+    },
+    "cost": 4
+}

@@ -1,0 +1,10 @@
+{
+    "id": "angkze_double_dutch_clutch",
+    "name": {
+        "default": "Double Dutch Clutch"
+    },
+    "description": {
+        "default": "Gain 2 fluster, get 3 extra beats next turn"
+    },
+    "cost": 2
+}

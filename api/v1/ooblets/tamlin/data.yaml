@@ -1,0 +1,22 @@
+id: tamlin
+
+name:
+  default: Tamlin
+
+quote:
+  default: >-
+    Tamlins are rare ooblets with whimsical moves.
+
+location: ephemeral_ooblet_vacation_spot
+
+items:
+  - item: go_go_cupcakes
+    quantity: 3
+
+signatureMoves:
+  - move: tamlin_fey_away
+    level: 1
+  - move: tamlin_pixie_dustup
+    level: 3
+  - move: tamlin_babbify
+    level: 6

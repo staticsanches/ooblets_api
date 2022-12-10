@@ -1,0 +1,10 @@
+{
+    "id": "legsy_fluster_foist",
+    "name": {
+        "default": "Fluster Foist"
+    },
+    "description": {
+        "default": "Give all your team's fluster to opponent"
+    },
+    "cost": 5
+}

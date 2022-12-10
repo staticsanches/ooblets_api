@@ -1,0 +1,10 @@
+{
+    "id": "oogum_counter_projection",
+    "name": {
+        "default": "Counter Projection"
+    },
+    "description": {
+        "default": "Steal 10 points after 4 turns of warm-up"
+    },
+    "cost": 2
+}

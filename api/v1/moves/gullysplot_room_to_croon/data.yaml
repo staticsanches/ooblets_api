@@ -1,0 +1,10 @@
+id: gullysplot_room_to_croon
+
+name:
+  default: Room To Croon
+
+description:
+  default: >-
+    Gain an extra 3 beats next turn
+
+cost: 2

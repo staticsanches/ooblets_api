@@ -1,0 +1,30 @@
+{
+    "id": "glanter",
+    "name": {
+        "default": "Glanter"
+    },
+    "quote": {
+        "default": "Glanters are native to Nullwhere whose shyness is sometimes mistaken for creepiness when explorers see them peeking out from behind tall reeds in the dark."
+    },
+    "location": "nullwhere",
+    "items": [
+        {
+            "item": "roast_dregs",
+            "quantity": 1
+        }
+    ],
+    "signatureMoves": [
+        {
+            "move": "glanter_tarantelantern",
+            "level": 1
+        },
+        {
+            "move": "glanter_pumpkizzicato",
+            "level": 3
+        },
+        {
+            "move": "glanter_hoberdygurdy",
+            "level": 6
+        }
+    ]
+}

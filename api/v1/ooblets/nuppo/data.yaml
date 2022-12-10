@@ -1,0 +1,22 @@
+id: nuppo
+
+name:
+  default: Nuppo
+
+quote:
+  default: >-
+    Nuppos have been observed to act rapscalliously in their native environments as well as important social functions.
+
+location: badgetown
+
+items:
+  - item: flooti_karioka
+    quantity: 1
+
+signatureMoves:
+  - move: nuppo_friend_flurry_floss
+    level: 1
+  - move: nuppo_flummoxtrot
+    level: 3
+  - move: nuppo_grand_adage
+    level: 6

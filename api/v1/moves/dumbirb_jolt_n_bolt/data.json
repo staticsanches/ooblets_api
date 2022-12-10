@@ -1,0 +1,10 @@
+{
+    "id": "dumbirb_jolt_n_bolt",
+    "name": {
+        "default": "Jolt 'N Bolt"
+    },
+    "description": {
+        "default": "Remove 1 fluster from your team"
+    },
+    "cost": 1
+}

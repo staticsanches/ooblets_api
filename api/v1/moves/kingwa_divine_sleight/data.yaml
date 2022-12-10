@@ -1,0 +1,10 @@
+id: kingwa_divine_sleight
+
+name:
+  default: Divine Sleight
+
+description:
+  default: >-
+    All point gains/losses from opponent's next turn are reversed
+
+cost: 3

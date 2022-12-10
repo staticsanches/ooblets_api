@@ -1,0 +1,10 @@
+{
+    "id": "radlad_slow_jam",
+    "name": {
+        "default": "Slow Jam"
+    },
+    "description": {
+        "default": "Give 2 hype to a random team"
+    },
+    "cost": 1
+}

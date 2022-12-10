@@ -1,0 +1,10 @@
+{
+    "id": "shrumbo_shake_it",
+    "name": {
+        "default": "Shake it"
+    },
+    "description": {
+        "default": "Earn 6 points"
+    },
+    "cost": 2
+}

@@ -1,0 +1,30 @@
+{
+    "id": "dumbirb",
+    "name": {
+        "default": "Dumbirb"
+    },
+    "quote": {
+        "default": "Dumbirbs are flightless ooblets that look like they really should be able to fly. Well I've never seen them flying but maybe they can and they're just shy."
+    },
+    "location": "badgetown",
+    "items": [
+        {
+            "item": "muz",
+            "quantity": 2
+        }
+    ],
+    "signatureMoves": [
+        {
+            "move": "dumbirb_jolt_n_bolt",
+            "level": 1
+        },
+        {
+            "move": "dumbirb_dawdle_waddle",
+            "level": 3
+        },
+        {
+            "move": "dumbirb_muster_fluster",
+            "level": 6
+        }
+    ]
+}

@@ -1,0 +1,10 @@
+id: pantsabear_sean_nos_boop
+
+name:
+  default: Sean Nós Boop
+
+description:
+  default: >-
+    Stun a random ooblet on either team for 1 turn, gain 4 points
+
+cost: 1

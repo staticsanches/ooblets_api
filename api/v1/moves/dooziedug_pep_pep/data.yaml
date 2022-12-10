@@ -1,0 +1,10 @@
+id: dooziedug_pep_pep
+
+name:
+  default: Pep Pep
+
+description:
+  default: >-
+    Earn 3 points and get an extra beat next turn
+
+cost: 2

@@ -1,0 +1,10 @@
+{
+    "id": "petula_bike_shred_cred",
+    "name": {
+        "default": "Bike Shred Cred"
+    },
+    "description": {
+        "default": "Add 1 turn of warm-up time to opponent warming-up move in progress"
+    },
+    "cost": 1
+}

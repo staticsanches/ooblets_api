@@ -1,0 +1,22 @@
+id: skuffalo
+
+name:
+  default: Skuffalo
+
+quote:
+  default: >-
+    Skuffalo bring a pastel flair to the often dreary atmosphere of Nullwhere.
+
+location: nullwhere
+
+items:
+  - item: dregplant
+    quantity: 3
+
+signatureMoves:
+  - move: skuffalo_clean_quadrille
+    level: 1
+  - move: skuffalo_steady_gains
+    level: 3
+  - move: skuffalo_trep_trip
+    level: 6

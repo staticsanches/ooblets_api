@@ -1,0 +1,10 @@
+{
+    "id": "dumbirb_dawdle_waddle",
+    "name": {
+        "default": "Dawdle Waddle"
+    },
+    "description": {
+        "default": "Add 2 trepidation (useless) cards to opponent's deck"
+    },
+    "cost": 1
+}

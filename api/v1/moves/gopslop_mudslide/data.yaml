@@ -1,0 +1,10 @@
+id: gopslop_mudslide
+
+name:
+  default: Mudslide
+
+description:
+  default: >-
+    Gain 7 points if you've already played 4 moves this turn
+
+cost: 1

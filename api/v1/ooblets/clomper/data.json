@@ -1,0 +1,30 @@
+{
+    "id": "clomper",
+    "name": {
+        "default": "Clomper"
+    },
+    "quote": {
+        "default": "Clomper's aggressive name belies their gentle (and some might say simple) nature. Taxonomically related to Lumpstumps insofar as they both have lil leavies on their heads."
+    },
+    "location": "badgetown",
+    "items": [
+        {
+            "item": "sweetiebeetie",
+            "quantity": 2
+        }
+    ],
+    "signatureMoves": [
+        {
+            "move": "clomper_shock_n_shimmy",
+            "level": 1
+        },
+        {
+            "move": "clomper_jittershrug",
+            "level": 3
+        },
+        {
+            "move": "clomper_astound_around",
+            "level": 6
+        }
+    ]
+}

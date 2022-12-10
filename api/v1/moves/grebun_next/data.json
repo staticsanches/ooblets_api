@@ -1,0 +1,10 @@
+{
+    "id": "grebun_next",
+    "name": {
+        "default": "Next!"
+    },
+    "description": {
+        "default": "Change music"
+    },
+    "cost": 2
+}

@@ -1,0 +1,10 @@
+id: sidekey_system_pause
+
+name:
+  default: System Pause
+
+description:
+  default: >-
+    Stun target for 2 turns
+
+cost: 2

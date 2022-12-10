@@ -1,0 +1,10 @@
+id: clickyclaws_just_a_taste
+
+name:
+  default: Just a Taste
+
+description:
+  default: >-
+    Steal 5 points
+
+cost: 3

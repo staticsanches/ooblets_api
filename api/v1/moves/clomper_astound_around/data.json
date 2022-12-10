@@ -1,0 +1,10 @@
+{
+    "id": "clomper_astound_around",
+    "name": {
+        "default": "Astound Around"
+    },
+    "description": {
+        "default": "Stun opponent team for 1 turn"
+    },
+    "cost": 4
+}

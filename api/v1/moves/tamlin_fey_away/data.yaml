@@ -1,0 +1,10 @@
+id: tamlin_fey_away
+
+name:
+  default: Fey-Away
+
+description:
+  default: >-
+    Convert your trepidation to points
+
+cost: 1

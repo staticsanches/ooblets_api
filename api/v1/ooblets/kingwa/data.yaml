@@ -1,0 +1,22 @@
+id: kingwa
+
+name:
+  default: Kingwa
+
+quote:
+  default: >-
+    Kingwas are rare ooblets that have somewhat double-edged moves.
+
+location: ephemeral_ooblet_vacation_spot
+
+items:
+  - item: blue_goo_pie
+    quantity: 3
+
+signatureMoves:
+  - move: kingwa_doubtful_decree
+    level: 1
+  - move: kingwa_divine_sleight
+    level: 3
+  - move: kingwa_royal_concession
+    level: 6

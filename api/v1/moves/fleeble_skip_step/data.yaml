@@ -1,0 +1,10 @@
+id: fleeble_skip_step
+
+name:
+  default: Skip Step
+
+description:
+  default: >-
+    Gain 4 points and remove 1 fluster from your team
+
+cost: 3

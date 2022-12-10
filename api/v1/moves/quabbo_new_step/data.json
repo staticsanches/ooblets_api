@@ -1,0 +1,10 @@
+{
+    "id": "quabbo_new_step",
+    "name": {
+        "default": "New Step"
+    },
+    "description": {
+        "default": "Clear all hype from opponent\u2019s team"
+    },
+    "cost": 3
+}

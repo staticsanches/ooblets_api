@@ -1,0 +1,10 @@
+{
+    "id": "gloopy_long_legs_marmalade_moat",
+    "name": {
+        "default": "Marmalade Moat"
+    },
+    "description": {
+        "default": "Block all fluster for the rest of the match"
+    },
+    "cost": 4
+}

@@ -1,0 +1,10 @@
+id: glanter_tarantelantern
+
+name:
+  default: Tarantelantern
+
+description:
+  default: >-
+    Gain 3 points and stun a random opponent for 1 turn
+
+cost: 2

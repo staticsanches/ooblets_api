@@ -1,0 +1,10 @@
+id: wigglewip_rattle_n_addle
+
+name:
+  default: Rattle 'N Addle
+
+description:
+  default: >-
+    Convert your opponent's hype to points for your team
+
+cost: 2

@@ -1,0 +1,10 @@
+{
+    "id": "bristlebud_stompulent",
+    "name": {
+        "default": "Stompulent"
+    },
+    "description": {
+        "default": "Increase opponent move costs by 2 beats for their next turn"
+    },
+    "cost": 4
+}

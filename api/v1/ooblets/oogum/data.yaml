@@ -1,0 +1,22 @@
+id: oogum
+
+name:
+  default: Oogum
+
+quote:
+  default: >-
+    Oogums are blessed with natural head tufting and glum expressions that indicate an adolescent phase but are assuredly coincidental.
+
+location: badgetown
+
+items:
+  - item: oodles
+    quantity: 1
+
+signatureMoves:
+  - move: oogum_displaced_dervish
+    level: 1
+  - move: oogum_counter_projection
+    level: 3
+  - move: oogum_backward_limbo
+    level: 6

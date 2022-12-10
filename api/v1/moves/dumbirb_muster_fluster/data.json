@@ -1,0 +1,10 @@
+{
+    "id": "dumbirb_muster_fluster",
+    "name": {
+        "default": "Muster Fluster"
+    },
+    "description": {
+        "default": "Give 2 fluster to a random team"
+    },
+    "cost": 2
+}

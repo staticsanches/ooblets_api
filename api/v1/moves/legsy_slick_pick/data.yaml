@@ -1,0 +1,10 @@
+id: legsy_slick_pick
+
+name:
+  default: Slick Pick
+
+description:
+  default: >-
+    Gain 2 points per move in your hand
+
+cost: 4

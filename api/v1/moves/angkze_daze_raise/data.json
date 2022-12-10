@@ -1,0 +1,10 @@
+{
+    "id": "angkze_daze_raise",
+    "name": {
+        "default": "Daze Raise"
+    },
+    "description": {
+        "default": "Stun one of your team's ooblets for 2 turns, gain 6 points"
+    },
+    "cost": 1
+}

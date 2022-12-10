@@ -1,0 +1,10 @@
+id: whirlitzer_abrupt_disrupt
+
+name:
+  default: Abrupt Disrupt
+
+description:
+  default: >-
+    Interrupt and cancel all opponents' current warming-up moves
+
+cost: 3

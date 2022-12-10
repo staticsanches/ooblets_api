@@ -1,0 +1,10 @@
+{
+    "id": "sidekey_machine_spurning",
+    "name": {
+        "default": "Machine Spurning"
+    },
+    "description": {
+        "default": "Increase opponents' move costs by 2 beats next turn"
+    },
+    "cost": 3
+}

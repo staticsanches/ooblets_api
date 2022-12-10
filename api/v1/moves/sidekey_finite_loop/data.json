@@ -1,0 +1,10 @@
+{
+    "id": "sidekey_finite_loop",
+    "name": {
+        "default": "Finite Loop"
+    },
+    "description": {
+        "default": "Play next move twice"
+    },
+    "cost": 3
+}

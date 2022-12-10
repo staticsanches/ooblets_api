@@ -1,0 +1,22 @@
+id: marshling
+
+name:
+  default: Marshling
+
+quote:
+  default: >-
+    Creatures of the swamps of Nullwhere, Marshlings are powerful dancers if you know how and when to use their power.
+
+location: nullwhere
+
+items:
+  - item: gloom_bun
+    quantity: 3
+
+signatureMoves:
+  - move: marshling_swamp_romp
+    level: 1
+  - move: marshling_fluster_flood
+    level: 3
+  - move: marshling_mire_medley
+    level: 6

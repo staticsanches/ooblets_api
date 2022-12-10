@@ -1,0 +1,22 @@
+id: chickadingding
+
+name:
+  default: Chickadingding
+
+quote:
+  default: >-
+    Chickadingdings are stolid but not particularly spooky ooblets from Nullwhere.
+
+location: nullwhere
+
+items:
+  - item: glob_blobs
+    quantity: 3
+
+signatureMoves:
+  - move: chickadingding_slipper_samba
+    level: 1
+  - move: chickadingding_give_a_dance
+    level: 3
+  - move: chickadingding_rubadubdub
+    level: 6

@@ -1,0 +1,30 @@
+{
+    "id": "rockstack",
+    "name": {
+        "default": "Rockstack"
+    },
+    "quote": {
+        "default": "Rockstacks were thought to be imaginary mythical folklore ooblets but turned out to be real. Found only near the top of Tippytop mountain."
+    },
+    "location": "tippy_top",
+    "items": [
+        {
+            "item": "creamadroostral_soup",
+            "quantity": 1
+        }
+    ],
+    "signatureMoves": [
+        {
+            "move": "rockstack_fresh_quarry",
+            "level": 1
+        },
+        {
+            "move": "rockstack_boulder_smoulder",
+            "level": 3
+        },
+        {
+            "move": "rockstack_in_the_rough",
+            "level": 6
+        }
+    ]
+}

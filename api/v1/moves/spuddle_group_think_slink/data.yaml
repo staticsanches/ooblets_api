@@ -1,0 +1,10 @@
+id: spuddle_group_think_slink
+
+name:
+  default: Group Think Slink
+
+description:
+  default: >-
+    Add 10 points to both teams
+
+cost: 3

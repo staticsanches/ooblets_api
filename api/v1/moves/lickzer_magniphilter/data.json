@@ -1,0 +1,10 @@
+{
+    "id": "lickzer_magniphilter",
+    "name": {
+        "default": "Magniphilter"
+    },
+    "description": {
+        "default": "Make your ooblets bigger for the rest of the match"
+    },
+    "cost": 1
+}

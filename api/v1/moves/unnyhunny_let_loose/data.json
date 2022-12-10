@@ -1,0 +1,10 @@
+{
+    "id": "unnyhunny_let_loose",
+    "name": {
+        "default": "Let Loose"
+    },
+    "description": {
+        "default": "Join a teammate's warming-up move to decrease its warm-up time by 1 turn"
+    },
+    "cost": 3
+}

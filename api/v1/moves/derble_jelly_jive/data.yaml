@@ -1,0 +1,10 @@
+id: derble_jelly_jive
+
+name:
+  default: Jelly Jive
+
+description:
+  default: >-
+    Join a teammate’s warm-up move to decrease its warm-up time by 1 turn
+
+cost: 2

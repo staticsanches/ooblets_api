@@ -1,0 +1,10 @@
+id: tud_tadpolka
+
+name:
+  default: Tadpolka
+
+description:
+  default: >-
+    Gain 1 point every time a move is played this hand
+
+cost: 1

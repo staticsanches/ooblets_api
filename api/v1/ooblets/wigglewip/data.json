@@ -1,0 +1,30 @@
+{
+    "id": "wigglewip",
+    "name": {
+        "default": "Wigglewip"
+    },
+    "quote": {
+        "default": "A root-based Ooblet with more advanced and subtle dance battle techniques. Legend speaks of giant wigglewips that used to wander the land, but legend speaks of a lot of stuff."
+    },
+    "location": "badgetown",
+    "items": [
+        {
+            "item": "caroot",
+            "quantity": 2
+        }
+    ],
+    "signatureMoves": [
+        {
+            "move": "wigglewip_gyrate_fete",
+            "level": 1
+        },
+        {
+            "move": "wigglewip_rattle_n_addle",
+            "level": 3
+        },
+        {
+            "move": "wigglewip_plie_dj",
+            "level": 6
+        }
+    ]
+}

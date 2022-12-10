@@ -1,0 +1,10 @@
+id: spuddle_risky_shift
+
+name:
+  default: Risky Shift
+
+description:
+  default: >-
+    50:50 chance of earning 5 points or giving opponent 5 points
+
+cost: 0

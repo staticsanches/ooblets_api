@@ -1,0 +1,10 @@
+{
+    "id": "spuddle_beserka_mazurka",
+    "name": {
+        "default": "Beserka Mazurka"
+    },
+    "description": {
+        "default": "Stun a random ooblet from either team"
+    },
+    "cost": 0
+}

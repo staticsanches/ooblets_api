@@ -1,0 +1,10 @@
+{
+    "id": "unnyhunny_sugar_pan_shuffle",
+    "name": {
+        "default": "Sugar Pan Shuffle"
+    },
+    "description": {
+        "default": "Earn 3 points and get a new move from your deck"
+    },
+    "cost": 3
+}

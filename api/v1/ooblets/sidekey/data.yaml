@@ -1,0 +1,22 @@
+id: sidekey
+
+name:
+  default: Sidekey
+
+quote:
+  default: >-
+    Sidekeys feature eponymous key-like biological structures protruding from their sides. Their mechanical appearance made them the perfect mascot for the Mimpins club. Wild sidekeys can only be lured into dances with exclusive Mimpins treabies.
+
+location: badgetown
+
+items:
+  - item: mimpins_metal_mallow
+    quantity: 1
+
+signatureMoves:
+  - move: sidekey_finite_loop
+    level: 1
+  - move: sidekey_system_pause
+    level: 3
+  - move: sidekey_machine_spurning
+    level: 6

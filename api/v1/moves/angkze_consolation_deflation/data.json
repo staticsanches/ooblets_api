@@ -1,0 +1,10 @@
+{
+    "id": "angkze_consolation_deflation",
+    "name": {
+        "default": "Consolation Deflation"
+    },
+    "description": {
+        "default": "Discard all moves in hand, get equal number of extra beats next turn"
+    },
+    "cost": 3
+}

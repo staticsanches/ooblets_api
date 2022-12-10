@@ -1,0 +1,10 @@
+id: rockstack_fresh_quarry
+
+name:
+  default: Fresh Quarry
+
+description:
+  default: >-
+    Gain some sorta fancy rock (gember or oobsidian or droostral)
+
+cost: 3

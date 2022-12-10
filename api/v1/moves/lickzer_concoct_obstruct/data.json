@@ -1,0 +1,10 @@
+{
+    "id": "lickzer_concoct_obstruct",
+    "name": {
+        "default": "Concoct Obstruct"
+    },
+    "description": {
+        "default": "Block your team from fluster for the rest of the match"
+    },
+    "cost": 4
+}

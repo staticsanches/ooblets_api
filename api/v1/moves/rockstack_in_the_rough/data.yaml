@@ -1,0 +1,10 @@
+id: rockstack_in_the_rough
+
+name:
+  default: In the Rough
+
+description:
+  default: >-
+    Stun opponent team for 2 turns
+
+cost: 6

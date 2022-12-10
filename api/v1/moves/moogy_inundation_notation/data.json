@@ -1,0 +1,10 @@
+{
+    "id": "moogy_inundation_notation",
+    "name": {
+        "default": "Inundation Notation"
+    },
+    "description": {
+        "default": "Add 5 trepidation moves to opponent's deck"
+    },
+    "cost": 2
+}

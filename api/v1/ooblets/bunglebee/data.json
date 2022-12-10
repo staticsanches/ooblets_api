@@ -1,0 +1,30 @@
+{
+    "id": "bunglebee",
+    "name": {
+        "default": "Bunglebee"
+    },
+    "quote": {
+        "default": "Bunglebees were thought to be imaginary mythical folklore ooblets but turned out to be real. They live in caves underground and build honeycone structures."
+    },
+    "location": "bunglebee_mines",
+    "items": [
+        {
+            "item": "honeygob",
+            "quantity": 3
+        }
+    ],
+    "signatureMoves": [
+        {
+            "move": "bunglebee_gimme_gimme",
+            "level": 1
+        },
+        {
+            "move": "bunglebee_sting_ringer",
+            "level": 3
+        },
+        {
+            "move": "bunglebee_hive_jive",
+            "level": 6
+        }
+    ]
+}

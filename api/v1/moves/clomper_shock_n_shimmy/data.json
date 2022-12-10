@@ -1,0 +1,10 @@
+{
+    "id": "clomper_shock_n_shimmy",
+    "name": {
+        "default": "Shock 'N Shimmy"
+    },
+    "description": {
+        "default": "Gain 5 points, lose all your hype"
+    },
+    "cost": 1
+}

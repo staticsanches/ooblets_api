@@ -1,0 +1,10 @@
+{
+    "id": "chickadingding_rubadubdub",
+    "name": {
+        "default": "Rubadubdub"
+    },
+    "description": {
+        "default": "Gain 2 points and clear all stuns from your team"
+    },
+    "cost": 2
+}

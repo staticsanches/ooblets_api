@@ -1,0 +1,10 @@
+{
+    "id": "radlad_cancel_prancel",
+    "name": {
+        "default": "Cancel Prancel"
+    },
+    "description": {
+        "default": "Interrupt and cancel an opponent's warming-up move"
+    },
+    "cost": 2
+}

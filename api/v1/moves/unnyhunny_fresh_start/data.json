@@ -1,0 +1,10 @@
+{
+    "id": "unnyhunny_fresh_start",
+    "name": {
+        "default": "Fresh Start"
+    },
+    "description": {
+        "default": "Start with 2 extra beats next turn"
+    },
+    "cost": 1
+}

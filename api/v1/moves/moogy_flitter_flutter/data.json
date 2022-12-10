@@ -1,0 +1,10 @@
+{
+    "id": "moogy_flitter_flutter",
+    "name": {
+        "default": "Flitter Flutter"
+    },
+    "description": {
+        "default": "Discard a random card, gain 1 beat"
+    },
+    "cost": 0
+}

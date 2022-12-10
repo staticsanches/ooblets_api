@@ -1,0 +1,22 @@
+id: gullysplot
+
+name:
+  default: Gullysplot
+
+quote:
+  default: >-
+    Gullysplot are of unknown origin but native to Port Forward, with researchers unsure whether they are fungi-type, jelly-type, or melon-type creatures. The issue is hotly debated.
+
+location: port_forward
+
+items:
+  - item: pneumatic_gnocchi
+    quantity: 3
+
+signatureMoves:
+  - move: gullysplot_icing_on_the_cake
+    level: 1
+  - move: gullysplot_swap_hop
+    level: 3
+  - move: gullysplot_room_to_croon
+    level: 6

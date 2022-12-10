@@ -1,0 +1,30 @@
+{
+    "id": "namnam",
+    "name": {
+        "default": "Namnam"
+    },
+    "quote": {
+        "default": "Namnam is a spirited lil spirit from Nullwhere. Said to be a distant relative to Clickyclaws in some way but ooblet taxonomy is confusing."
+    },
+    "location": "nullwhere",
+    "items": [
+        {
+            "item": "beetie_curd",
+            "quantity": 3
+        }
+    ],
+    "signatureMoves": [
+        {
+            "move": "namnam_bitsy_boo",
+            "level": 1
+        },
+        {
+            "move": "namnam_roar_routine",
+            "level": 3
+        },
+        {
+            "move": "namnam_clawback",
+            "level": 6
+        }
+    ]
+}

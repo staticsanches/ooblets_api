@@ -1,0 +1,30 @@
+{
+    "id": "firmo",
+    "name": {
+        "default": "Firmo"
+    },
+    "quote": {
+        "default": "Firmos are monocular, mechanical-based ooblets found in Mamoonia."
+    },
+    "location": "mamoonia",
+    "items": [
+        {
+            "item": "sparkflower",
+            "quantity": 3
+        }
+    ],
+    "signatureMoves": [
+        {
+            "move": "firmo_hydraulic_hornpipe",
+            "level": 1
+        },
+        {
+            "move": "firmo_gear_glissade",
+            "level": 3
+        },
+        {
+            "move": "firmo_soft_shoe_servo",
+            "level": 6
+        }
+    ]
+}

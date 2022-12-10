@@ -1,0 +1,10 @@
+id: snurfler_gemjam
+
+name:
+  default: Gemjam
+
+description:
+  default: >-
+    70% chance of producing a gember
+
+cost: 3

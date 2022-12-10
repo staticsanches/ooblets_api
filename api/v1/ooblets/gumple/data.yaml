@@ -1,0 +1,22 @@
+id: gumple
+
+name:
+  default: Gumple
+
+quote:
+  default: >-
+    Gumples are rare ooblets that have interesting and varied dance moves.
+
+location: ephemeral_ooblet_vacation_spot
+
+items:
+  - item: muzimi
+    quantity: 3
+
+signatureMoves:
+  - move: gumple_stress_relief
+    level: 1
+  - move: gumple_silly_arms
+    level: 3
+  - move: gumple_hypebeast
+    level: 6

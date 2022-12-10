@@ -1,0 +1,30 @@
+{
+    "id": "snurfler",
+    "name": {
+        "default": "Snurfler"
+    },
+    "quote": {
+        "default": "Snurflers are a Nullwhere species that are particularly good at snurfling out gembers but aren't particularly useful in competitive dance battles."
+    },
+    "location": "nullwhere",
+    "items": [
+        {
+            "item": "hyperglob",
+            "quantity": 3
+        }
+    ],
+    "signatureMoves": [
+        {
+            "move": "snurfler_gemjolt",
+            "level": 1
+        },
+        {
+            "move": "snurfler_gemjive",
+            "level": 3
+        },
+        {
+            "move": "snurfler_gemjam",
+            "level": 6
+        }
+    ]
+}

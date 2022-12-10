@@ -1,0 +1,10 @@
+{
+    "id": "gubwee_sassy_saute",
+    "name": {
+        "default": "Sassy Saut\u00e9"
+    },
+    "description": {
+        "default": "Increase opponent move costs by 1 for the whole match"
+    },
+    "cost": 4
+}

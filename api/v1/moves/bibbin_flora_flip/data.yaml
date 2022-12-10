@@ -1,0 +1,10 @@
+id: bibbin_flora_flip
+
+name:
+  default: Flora Flip
+
+description:
+  default: >-
+    Randomize & regrow all region forageables
+
+cost: 6

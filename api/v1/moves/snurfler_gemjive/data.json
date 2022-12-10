@@ -1,0 +1,10 @@
+{
+    "id": "snurfler_gemjive",
+    "name": {
+        "default": "Gemjive"
+    },
+    "description": {
+        "default": "40% chance of producing a gember"
+    },
+    "cost": 2
+}

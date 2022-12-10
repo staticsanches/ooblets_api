@@ -1,0 +1,10 @@
+id: derble_bon_bon_bop
+
+name:
+  default: Bon Bon Bop
+
+description:
+  default: >-
+    Earn 14 points after 3 turns of warm-up
+
+cost: 3

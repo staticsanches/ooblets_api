@@ -1,0 +1,10 @@
+id: clomper_jittershrug
+
+name:
+  default: Jittershrug
+
+description:
+  default: >-
+    Stun target for 1 turn
+
+cost: 0

@@ -1,0 +1,10 @@
+id: derble_quiddany_quickstep
+
+name:
+  default: Quiddany Quickstep
+
+description:
+  default: >-
+    Gain 6 points after 2 turns of warm-up
+
+cost: 1

@@ -1,0 +1,10 @@
+{
+    "id": "fripp_loaded_lindy",
+    "name": {
+        "default": "Loaded Lindy"
+    },
+    "description": {
+        "default": "Earn 18 points after 4 turns of warm-up"
+    },
+    "cost": 2
+}

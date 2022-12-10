@@ -1,0 +1,10 @@
+{
+    "id": "glanter_hoberdygurdy",
+    "name": {
+        "default": "Hoberdygurdy"
+    },
+    "description": {
+        "default": "Stun 2 random opponents for 2 turns"
+    },
+    "cost": 3
+}

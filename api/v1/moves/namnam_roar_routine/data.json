@@ -1,0 +1,10 @@
+{
+    "id": "namnam_roar_routine",
+    "name": {
+        "default": "Roar Routine"
+    },
+    "description": {
+        "default": "Give your opponent 1 hype, gain 5 points"
+    },
+    "cost": 1
+}

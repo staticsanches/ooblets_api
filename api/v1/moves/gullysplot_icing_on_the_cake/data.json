@@ -1,0 +1,10 @@
+{
+    "id": "gullysplot_icing_on_the_cake",
+    "name": {
+        "default": "Icing On The Cake"
+    },
+    "description": {
+        "default": "Earn 4 points and get an extra beat next turn"
+    },
+    "cost": 3
+}

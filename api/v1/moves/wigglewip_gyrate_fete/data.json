@@ -1,0 +1,10 @@
+{
+    "id": "wigglewip_gyrate_fete",
+    "name": {
+        "default": "Gyrate F\u00eate"
+    },
+    "description": {
+        "default": "Add 3 trepidation (useless) cards to opponent's deck"
+    },
+    "cost": 2
+}

@@ -1,0 +1,10 @@
+id: skuffalo_steady_gains
+
+name:
+  default: Steady Gains
+
+description:
+  default: >-
+    Earn 6 points after 1 turns of warm-up
+
+cost: 2

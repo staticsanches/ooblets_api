@@ -1,0 +1,10 @@
+{
+    "id": "skuffalo_trep_trip",
+    "name": {
+        "default": "Trep Trip"
+    },
+    "description": {
+        "default": "Add 4 trepidation (useless) moves to opponent's deck"
+    },
+    "cost": 3
+}

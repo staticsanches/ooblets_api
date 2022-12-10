@@ -1,0 +1,22 @@
+id: plob
+
+name:
+  default: Plob
+
+quote:
+  default: >-
+    Plobs are seemingly unremarkable semi-aquatic ooblet...with surprisingly unique dance battle characteristics. Found around watery areas in and around Badgetown.
+
+location: badgetown
+
+items:
+  - item: muz_flour
+    quantity: 2
+
+signatureMoves:
+  - move: plob_loot_scoot
+    level: 1
+  - move: plob_crop_bop
+    level: 3
+  - move: plob_sow_glow
+    level: 6

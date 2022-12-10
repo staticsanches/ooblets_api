@@ -1,0 +1,30 @@
+{
+    "id": "tud",
+    "name": {
+        "default": "Tud"
+    },
+    "quote": {
+        "default": "Tuds are the semi-aquatic mascot ooblets of the Frunbuns club. They are good at being supportive members of a dance troupe. Wild tuds can only be lured into dances with exclusive Frunbuns treabies."
+    },
+    "location": "badgetown",
+    "items": [
+        {
+            "item": "frunbuns_hunbun",
+            "quantity": 1
+        }
+    ],
+    "signatureMoves": [
+        {
+            "move": "tud_glaze_glide",
+            "level": 1
+        },
+        {
+            "move": "tud_tadpolka",
+            "level": 3
+        },
+        {
+            "move": "tud_hype_tram_jam",
+            "level": 6
+        }
+    ]
+}

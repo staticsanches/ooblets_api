@@ -1,0 +1,30 @@
+{
+    "id": "whirlitzer",
+    "name": {
+        "default": "Whirlitzer"
+    },
+    "quote": {
+        "default": "Whirlitzers, at the time of this writing, are the only ooblets known to be capable of flight, although not a whole lot of flight as they seem to just hover."
+    },
+    "location": "badgetown",
+    "items": [
+        {
+            "item": "ground_springbeans",
+            "quantity": 2
+        }
+    ],
+    "signatureMoves": [
+        {
+            "move": "whirlitzer_gracing_pacing",
+            "level": 1
+        },
+        {
+            "move": "whirlitzer_abrupt_disrupt",
+            "level": 3
+        },
+        {
+            "move": "whirlitzer_fateful_flourish",
+            "level": 6
+        }
+    ]
+}

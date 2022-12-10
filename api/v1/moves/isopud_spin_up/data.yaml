@@ -1,0 +1,10 @@
+id: isopud_spin_up
+
+name:
+  default: Spin Up
+
+description:
+  default: >-
+    Join a teammate's warm-up move and increase any points it earns by 50%
+
+cost: 2

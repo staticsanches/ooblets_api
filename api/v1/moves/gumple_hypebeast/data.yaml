@@ -1,0 +1,10 @@
+id: gumple_hypebeast
+
+name:
+  default: Hypebeast
+
+description:
+  default: >-
+    Convert your hype to points multiplied by 2
+
+cost: 1

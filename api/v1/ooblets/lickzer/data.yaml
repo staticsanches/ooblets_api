@@ -1,0 +1,22 @@
+id: lickzer
+
+name:
+  default: Lickzer
+
+quote:
+  default: >-
+    Lickzers are a newly-discovered ooblet species from Nullwhere. Some have been noted to present strange effects during dances.
+
+location: nullwhere
+
+items:
+  - item: freep
+    quantity: 3
+
+signatureMoves:
+  - move: lickzer_focus_pocus
+    level: 1
+  - move: lickzer_concoct_obstruct
+    level: 3
+  - move: lickzer_magniphilter
+    level: 6

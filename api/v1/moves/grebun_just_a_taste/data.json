@@ -1,0 +1,10 @@
+{
+    "id": "grebun_just_a_taste",
+    "name": {
+        "default": "Just a Taste"
+    },
+    "description": {
+        "default": "Opponent only draws 2 starting moves next turn"
+    },
+    "cost": 4
+}

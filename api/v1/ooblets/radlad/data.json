@@ -1,0 +1,30 @@
+{
+    "id": "radlad",
+    "name": {
+        "default": "Radlad"
+    },
+    "quote": {
+        "default": "Radlads as a species seem to have misinterpreted the root of their namesakes, and as such, tend to have a too-cool-for-school rad demeanor."
+    },
+    "location": "badgetown",
+    "items": [
+        {
+            "item": "hop_dob",
+            "quantity": 2
+        }
+    ],
+    "signatureMoves": [
+        {
+            "move": "radlad_slow_jam",
+            "level": 1
+        },
+        {
+            "move": "radlad_cancel_prancel",
+            "level": 3
+        },
+        {
+            "move": "radlad_big_flourish",
+            "level": 6
+        }
+    ]
+}

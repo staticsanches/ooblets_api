@@ -1,0 +1,10 @@
+id: kingwa_royal_concession
+
+name:
+  default: Royal Concession
+
+description:
+  default: >-
+    Lose 10 points, start each turn with an extra beat
+
+cost: 3

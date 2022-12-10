@@ -1,0 +1,10 @@
+id: whirlitzer_fateful_flourish
+
+name:
+  default: Fateful Flourish
+
+description:
+  default: >-
+    Opponent draws 1 fewer moves each hand for the rest of the match
+
+cost: 4

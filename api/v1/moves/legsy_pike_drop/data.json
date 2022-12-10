@@ -1,0 +1,10 @@
+{
+    "id": "legsy_pike_drop",
+    "name": {
+        "default": "Pike Drop"
+    },
+    "description": {
+        "default": "Double your team's current points"
+    },
+    "cost": 7
+}

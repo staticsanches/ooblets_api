@@ -1,0 +1,10 @@
+id: gubwee_shuffle_shanty
+
+name:
+  default: Shuffle Shanty
+
+description:
+  default: >-
+    Redraw remaining moves in hand
+
+cost: 1

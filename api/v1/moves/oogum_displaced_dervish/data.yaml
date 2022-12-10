@@ -1,0 +1,10 @@
+id: oogum_displaced_dervish
+
+name:
+  default: Displaced Dervish
+
+description:
+  default: >-
+    Discard a random move and get another move from your deck
+
+cost: 1

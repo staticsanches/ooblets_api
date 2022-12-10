@@ -1,0 +1,10 @@
+{
+    "id": "bittle_pilfer_polka",
+    "name": {
+        "default": "Pilfer Polka"
+    },
+    "description": {
+        "default": "Steal 4 points"
+    },
+    "cost": 2
+}

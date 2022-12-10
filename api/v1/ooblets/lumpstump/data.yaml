@@ -1,0 +1,22 @@
+id: lumpstump
+
+name:
+  default: Lumpstump
+
+quote:
+  default: >-
+    A woodsy ooblet found in the forests around Badgetown. Scientists are divided on classifying lumpstumps’ head branches as ears or horns.
+
+location: badgetown
+
+items:
+  - item: planklets
+    quantity: 4
+
+signatureMoves:
+  - move: lumpstump_put_down_roots
+    level: 1
+  - move: lumpstump_boogie_blossom
+    level: 3
+  - move: lumpstump_shake_the_tree
+    level: 6

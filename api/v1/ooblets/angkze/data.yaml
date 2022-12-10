@@ -1,0 +1,22 @@
+id: angkze
+
+name:
+  default: Angkze
+
+quote:
+  default: >-
+    Angkzes are semi-aquatic ambulatory ooblets native to Port Forward, similar in many respects to Legsies, but without the natural moxie or detached destructiveness.
+
+location: port_forward
+
+items:
+  - item: soggy_balloons
+    quantity: 3
+
+signatureMoves:
+  - move: angkze_daze_raise
+    level: 1
+  - move: angkze_double_dutch_clutch
+    level: 3
+  - move: angkze_consolation_deflation
+    level: 6

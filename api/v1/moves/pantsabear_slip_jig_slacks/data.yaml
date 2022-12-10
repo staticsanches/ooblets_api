@@ -1,0 +1,10 @@
+id: pantsabear_slip_jig_slacks
+
+name:
+  default: Slip Jig Slacks
+
+description:
+  default: >-
+    Randomize your current beats (0-6)
+
+cost: 2

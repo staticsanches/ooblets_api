@@ -1,0 +1,10 @@
+{
+    "id": "gopslop_grubby_hands",
+    "name": {
+        "default": "Grubby Hands"
+    },
+    "description": {
+        "default": "Clone a random opponent ooblet's accessory"
+    },
+    "cost": 5
+}

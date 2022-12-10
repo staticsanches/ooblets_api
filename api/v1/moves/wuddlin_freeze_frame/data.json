@@ -1,0 +1,10 @@
+{
+    "id": "wuddlin_freeze_frame",
+    "name": {
+        "default": "Freeze Frame"
+    },
+    "description": {
+        "default": "Stun an opponent for 1 turn"
+    },
+    "cost": 0
+}

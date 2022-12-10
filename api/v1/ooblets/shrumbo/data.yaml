@@ -1,0 +1,22 @@
+id: shrumbo
+
+name:
+  default: Shrumbo
+
+quote:
+  default: >-
+    Shrumbos are the mascot ooblets of the Mossprouts club. They have a very straightforward dance battle style. Wild shrumbos can only be lured into dances with exclusive Mossprouts treabies.
+
+location: badgetown
+
+items:
+  - item: mossprouts_malt
+    quantity: 1
+
+signatureMoves:
+  - move: shrumbo_shake_it
+    level: 1
+  - move: shrumbo_sashay
+    level: 3
+  - move: shrumbo_showcase
+    level: 6
