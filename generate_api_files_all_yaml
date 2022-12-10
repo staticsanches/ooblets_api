@@ -1,0 +1,4 @@
+#! /bin/bash
+
+cd api_validator || exit;
+./gradlew run --args='generate_api_files_all_yaml';

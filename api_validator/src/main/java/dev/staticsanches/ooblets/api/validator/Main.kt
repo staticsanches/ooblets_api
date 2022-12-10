@@ -2,7 +2,12 @@ package dev.staticsanches.ooblets.api.validator
 
 import kotlin.io.path.nameWithoutExtension
 
-fun main() {
+fun main(args: Array<String>) {
+    if (args.getOrNull(0) == "generate_api_files_all_yaml") {
+        AllYamlGenerator.generateAll()
+        return
+    }
+
     ApiPath.root.children
         .filter { it.isDirectory }
         .forEach(AllFilesValidator::validate)
