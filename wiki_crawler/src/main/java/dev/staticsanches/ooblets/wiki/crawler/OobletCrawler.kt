@@ -49,9 +49,9 @@ private fun listOoblets(allOoblets: Collection<String>, maxPerLine: Int = 6) {
 private fun exportOobletData(name: String) {
 	val document = WikiJsoupLoader.loadOobletPage(name)
 
-	val firstMove = extractOobletMove(MoveLearningOrder.FIRST, document)
-	val secondMove = extractOobletMove(MoveLearningOrder.SECOND, document)
-	val thirdMove = extractOobletMove(MoveLearningOrder.THIRD, document)
+	val firstMove = extractOobletMove(name, MoveLearningOrder.FIRST, document)
+	val secondMove = extractOobletMove(name, MoveLearningOrder.SECOND, document)
+	val thirdMove = extractOobletMove(name, MoveLearningOrder.THIRD, document)
 
 	exportOobletMoveData(firstMove)
 	exportOobletMoveData(secondMove)
@@ -76,11 +76,11 @@ private fun exportOobletData(name: String) {
 			    quantity: ${extractOobletItemQuantity(document)}
 			
 			signatureMoves:
-			  - move: ${firstMove.name.toID()}
+			  - move: ${firstMove.id}
 			    level: ${firstMove.level}
-			  - move: ${secondMove.name.toID()}
+			  - move: ${secondMove.id}
 			    level: ${secondMove.level}
-			  - move: ${thirdMove.name.toID()}
+			  - move: ${thirdMove.id}
 			    level: ${thirdMove.level}
 			
 		""".trimIndent()
@@ -126,11 +126,16 @@ private fun CharSequence.unaccent(): String {
 private val alphaNumericRegex = "[^A-Za-z0-9 ]".toRegex()
 
 private fun CharSequence.onlyAlphaNumeric(): String =
-	alphaNumericRegex.replace(this, "")
+	alphaNumericRegex.replace(this, " ").onlyOneSpace().trim()
+
+private val multipleSpaceRegex = "  +".toRegex()
+
+private fun CharSequence.onlyOneSpace(): String =
+	multipleSpaceRegex.replace(this, " ")
 
 private fun String.toID() = this.trim().unaccent().onlyAlphaNumeric().lowercase().replace(" ", "_")
 
-private fun extractOobletMove(learningOrder: MoveLearningOrder, document: Document): Move {
+private fun extractOobletMove(oobletName: String, learningOrder: MoveLearningOrder, document: Document): Move {
 	val level = document.selectFirst(
 		"h2:matches((?i)Signature Moves) ~ table tr:nth-child(1) > th:nth-child(${learningOrder.ordinal + 1}):matches((?i)Level \\d+)"
 	)!!.text().lowercase().removePrefix("level").trim().toInt()
@@ -149,7 +154,7 @@ private fun extractOobletMove(learningOrder: MoveLearningOrder, document: Docume
 		)
 	)
 
-	return Move(level, cost, name, description, imageURL)
+	return Move(oobletName, level, cost, name, description, imageURL)
 }
 
 private fun extractImageUrl(imgElement: Element?, extension: String = ".png"): String? {
@@ -164,7 +169,7 @@ private fun extractImageUrl(imgElement: Element?, extension: String = ".png"): S
 }
 
 private fun exportOobletMoveData(move: Move) {
-	val id = move.name.toID()
+	val id = move.id
 	FileHelper.getFile("data.yaml", "moves", id).writeText(
 		"""
 			id: $id
@@ -183,7 +188,7 @@ private fun exportOobletMoveData(move: Move) {
 	if (move.imageURL != null) {
 		saveImage(FileHelper.getFile("image.png", "moves", id), move.imageURL)
 	} else {
-		println("Missing image of move ${move.name}")
+		println("Missing image of move ${move.id}")
 	}
 }
 
@@ -195,5 +200,13 @@ private enum class OobletVariant { COMMON, UNUSUAL, GLEAMY }
 private enum class MoveLearningOrder { FIRST, SECOND, THIRD }
 
 private data class Move(
-	val level: Int, val cost: Int, val name: String, val description: String, val imageURL: String?
-)
+	val oobletName: String,
+	val level: Int,
+	val cost: Int,
+	val name: String,
+	val description: String,
+	val imageURL: String?,
+) {
+	val id: String
+		get() = "$oobletName $name".toID()
+}
