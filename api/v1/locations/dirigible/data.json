@@ -1,0 +1,9 @@
+{
+    "id": "dirigible",
+    "name": {
+        "default": "Dirigible"
+    },
+    "description": {
+        "default": "The Daily Oob Dirigible is a mini-region in Ooblets (game). This Dirigible (a lighter-than-air craft which is powered and steerable[1]) is home to the Daily Oob, the only newspaper which exists in all of Oob. As a mini-region, it has no crops, forageables, or ooblets."
+    }
+}

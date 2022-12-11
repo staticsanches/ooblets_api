@@ -1,0 +1,9 @@
+{
+    "id": "port_forward",
+    "name": {
+        "default": "Port Forward"
+    },
+    "description": {
+        "default": "Port Forward is an arcade-filled boardwalk town."
+    }
+}
