@@ -15,6 +15,14 @@ object WikiJsoupLoader {
     fun loadOobletPage(name: String) =
         getDocument(name.replace(" ", "_"))
 
+    fun findAllLocations(): List<String> =
+        getDocument("Category:Regions")
+            .select(".mw-category li > a")
+            .map { it.text().trim() }
+
+    fun loadLocationPage(name: String) =
+        getDocument(name.replace(" ", "_"))
+
     private val cache = mutableMapOf<String, Document>()
 
     private fun getDocument(path: String) =

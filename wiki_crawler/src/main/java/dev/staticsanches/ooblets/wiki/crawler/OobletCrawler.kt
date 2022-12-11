@@ -1,11 +1,8 @@
 package dev.staticsanches.ooblets.wiki.crawler
 
+import dev.staticsanches.ooblets.wiki.crawler.ImageHelper.extractImageUrl
+import dev.staticsanches.ooblets.wiki.crawler.ImageHelper.saveImage
 import org.jsoup.nodes.Document
-import org.jsoup.nodes.Element
-import java.io.File
-import java.net.URL
-import java.text.Normalizer
-import javax.imageio.ImageIO
 import kotlin.time.ExperimentalTime
 import kotlin.time.measureTime
 
@@ -14,7 +11,7 @@ fun main() {
 	val allOoblets = WikiJsoupLoader.findAllOobletsNames()
 
 	while (true) {
-		listOoblets(allOoblets)
+		listLocations(allOoblets)
 		print("Select an ooblet or q to quit or a to all [q]: ")
 		val userInput = readlnOrNull()?.trim()?.lowercase()?.ifEmpty { null } ?: "q"
 		if (userInput == "q") {
@@ -32,7 +29,7 @@ fun main() {
 	}
 }
 
-private fun listOoblets(allOoblets: Collection<String>, maxPerLine: Int = 6) {
+private fun listLocations(allOoblets: Collection<String>, maxPerLine: Int = 6) {
 	val indexMaxLength = allOoblets.size.toString().length
 	val oobletMaxLength = allOoblets.asSequence().map { it.length }.max() + 1
 	for ((index, ooblet) in allOoblets.withIndex()) {
@@ -116,25 +113,6 @@ private fun extractOobletItemQuantity(document: Document): Int =
 	document.selectFirst("tr th:matches(Item) + td:has(a)")!!.ownText()
 		.removePrefix("x").trim().ifEmpty { "1" }.toInt()
 
-private val unaccentRegex = "\\p{InCombiningDiacriticalMarks}+".toRegex()
-
-private fun CharSequence.unaccent(): String {
-	val temp = Normalizer.normalize(this, Normalizer.Form.NFD)
-	return unaccentRegex.replace(temp, "")
-}
-
-private val alphaNumericRegex = "[^A-Za-z0-9 ]".toRegex()
-
-private fun CharSequence.onlyAlphaNumeric(): String =
-	alphaNumericRegex.replace(this, " ").onlyOneSpace().trim()
-
-private val multipleSpaceRegex = "  +".toRegex()
-
-private fun CharSequence.onlyOneSpace(): String =
-	multipleSpaceRegex.replace(this, " ")
-
-private fun String.toID() = this.trim().unaccent().onlyAlphaNumeric().lowercase().replace(" ", "_")
-
 private fun extractOobletMove(oobletName: String, learningOrder: MoveLearningOrder, document: Document): Move {
 	val level = document.selectFirst(
 		"h2:matches((?i)Signature Moves) ~ table tr:nth-child(1) > th:nth-child(${learningOrder.ordinal + 1}):matches((?i)Level \\d+)"
@@ -155,17 +133,6 @@ private fun extractOobletMove(oobletName: String, learningOrder: MoveLearningOrd
 	)
 
 	return Move(oobletName, level, cost, name, description, imageURL)
-}
-
-private fun extractImageUrl(imgElement: Element?, extension: String = ".png"): String? {
-	if (imgElement == null) {
-		return null
-	}
-	return if (imgElement.hasAttr("data-src")) {
-		imgElement.attr("data-src")
-	} else {
-		imgElement.attr("src")
-	}.substringBeforeLast(extension) + extension
 }
 
 private fun exportOobletMoveData(move: Move) {
@@ -191,9 +158,6 @@ private fun exportOobletMoveData(move: Move) {
 		println("Missing image of move ${move.id}")
 	}
 }
-
-private fun saveImage(file: File, imageURL: String, imageFormat: String = "png") =
-	ImageIO.write(ImageIO.read(URL(imageURL)), imageFormat, file)
 
 private enum class OobletVariant { COMMON, UNUSUAL, GLEAMY }
 
