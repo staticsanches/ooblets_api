@@ -690,13 +690,10 @@ components:
           $ref: "#/components/schemas/I18nString"
         description:
           $ref: "#/components/schemas/I18nString"
-        ooblets:
-          $ref: "#/components/schemas/OobletList"
       required:
         - id
         - name
         - description
-        - ooblets
       additionalProperties: false
     LocationID:
       type: string
