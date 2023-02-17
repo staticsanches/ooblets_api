@@ -19,6 +19,8 @@ object WikiJsoupLoader {
         getDocument("Category:Regions")
             .select(".mw-category li > a")
             .map { it.text().trim() }
+            .filter { it != "BungleHQ" } // not a valid location
+            .toList()
 
     fun loadLocationPage(name: String) =
         getDocument(name.replace(" ", "_"))
