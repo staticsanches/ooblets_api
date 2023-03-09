@@ -15,15 +15,15 @@
     ],
     "signatureMoves": [
         {
-            "move": "saturday_gigue",
+            "move": "hermble_saturday_gigue",
             "level": 1
         },
         {
-            "move": "extra_mild_salsa",
+            "move": "hermble_extra_mild_salsa",
             "level": 3
         },
         {
-            "move": "hokeyokay",
+            "move": "hermble_hokeyokay",
             "level": 6
         }
     ]

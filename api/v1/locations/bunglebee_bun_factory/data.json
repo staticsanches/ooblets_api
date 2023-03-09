@@ -1,0 +1,9 @@
+{
+    "id": "bunglebee_bun_factory",
+    "name": {
+        "default": "Bunglebee Bun Factory"
+    },
+    "description": {
+        "default": "The Bunglebee Bun Factory is where the Bunglebee Bun Corp produces their famous Bunglebee Buns."
+    }
+}

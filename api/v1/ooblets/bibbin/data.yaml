@@ -14,9 +14,9 @@ items:
     quantity: 2
 
 signatureMoves:
-  - move: drizzle_drop
+  - move: bibbin_drizzle_drop
     level: 1
-  - move: bibbin_bop
+  - move: bibbin_bibbin_bop
     level: 3
-  - move: flora_flip
+  - move: bibbin_flora_flip
     level: 6
